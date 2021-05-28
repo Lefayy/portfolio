@@ -1,0 +1,12 @@
+body {
+    background-color: #0d1117;
+}
+
+.white-text {
+    color: white;
+}
+
+.center {
+    text-align: center;
+    padding: 38vh;
+}
