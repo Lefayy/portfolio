@@ -1,12 +1,10 @@
-body {
-    background-color: #0d1117;
+
+.jumbotron {
+    vertical-align: middle !important;
+    text-align: justify !important;
+    position: relative !important;
+    padding: 25vh !important;
 }
 
-.white-text {
-    color: white;
-}
 
-.center {
-    text-align: center;
-    padding: 20vh;
-}
+
