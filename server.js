@@ -19,8 +19,12 @@ app.get('/register', (req, res) => {
     res.sendFile('register.html', { root: __dirname + "/html" });
 })
 
-app.get('/aboutme', (req, res) => {
-    res.sendFile('about-me.html', { root: __dirname + "/html" });
+app.get('/about-us', (req, res) => {
+    res.sendFile('aboutus.html', { root: __dirname + "/html" });
+})
+
+app.get('*', (req, res) => {
+    res.sendFile("404.html", { root: __dirname + "/html"});
 })
 
 app.listen(3000, () => console.log(`Listening on port ${port}`));

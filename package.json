@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lefayy/myPortfolio/issues"
   },
-  "homepage": "https://github.com/Lefayy/myPortfolio#readme"
+  "homepage": "https://github.com/Lefayy/myPortfolio#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
 }
