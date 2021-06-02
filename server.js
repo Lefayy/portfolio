@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.sendFile('index.html', { root: __dirname + "/html" });
 })
 
+app.get('/pricing', (req, res) => {
+    res.sendFile('pricing.html', { root: __dirname + "/html"});
+})
+
 app.get('/login', (req, res) => {
     res.sendFile('login.html', { root: __dirname + "/html" });
 })
